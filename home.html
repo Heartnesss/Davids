@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2.one {
+              background-color:rgb(49, 8, 1);
+              text-align: center;
+              border: 7px outset red;
+              color: crimson;
+              word-spacing: 10px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 3px solid #000000;
+            border-style: solid;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dd5f5f;
+        }
+
+        tr:nth-child(odd) {
+            background-color:rgb(100, 27, 14);
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+tr:hover {background-color: rgba(132, 18, 0, 0.5)}
+
+
+        ol {
+          list-style-type: none;
+          margin: 0px;
+          padding: 5px;
+          overflow: hidden;
+          background-color:rgb(75, 12, 1);
+          text-align: center;
+        }
+        
+        
+
+        ol a {
+            display: block;
+            color: tomato;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        ol a:hover {
+            background-color: #350000;
+        }
+
+
+
+        
+    </style>
+
+    <title>Eggs Home</title>
+    <link rel="icon" type="image/x-icon" href="eggs.ico">
+
+</head>
+
+<body bgcolor="#a84f3d">
+
+<ol type="none">
+    <li style="float:left; font-size: 30px"><a href="home.html">Home</a></li>
+    <li style="float:left; font-size: 30px"><a href="news.html">News</a></li>
+    <li style="float:left; font-size: 30px"><a href="contact.html">Contact</a></li>
+    <li style="float:left; font-size: 30px"><a href="about.html">About</a></li>
+    <li style="float:left; font-size: 30px"><a href="eggs.html">Eggs</a></li>
+    <li style="float:left; font-size: 30px"><a href="tips.html">Tips</a></li>
+    <li style="float:left; font-size: 30px"><a href="tricks.html">Tricks</a></li>
+    <li style="float:left; font-size: 30px"><a href="combos.html">Combos</a></li>
+    <li style="float:left; font-size: 30px"><a href="existence.html">Exsistence</a></li>
+    <li style="float:left; font-size: 30px"><a href="painting.html">Paintings</a></li>
+    <li style="float:left; font-size: 30px"><a href="easter.html">Easter</a></li>
+    <li style="float:left; font-size: 30px"><a href="traditions.html">Traditions</a></li>
+    <li style="float:left; font-size: 30px"><a href="idiotism.html">Idiotism</a></li>
+    <li style="float:left; font-size: 30px"><a href="population.html">Population</a></li>
+    <li style="float:left; font-size: 30px"><a href="country.html">Country</a></li>
+    <li style="float:left; font-size: 30px"><a href="recipes.html">Recipes</a></li>
+    <li style="float:left; font-size: 30px"><a href="substances.html">Substances</a></li>
+    <li style="float:left; font-size: 30px"><a href="facts.html">Facts</a></li>
+    <li style="float:left; font-size: 30px"><a href="suicides.html">Suicides</a></li>
+    <li style="float:left; font-size: 30px"><a href="sussy.html">Sussy</a></li>
+    <li style="float:left; font-size: 30px"><a href="help.html">Help</a></li>
+    <li style="float:left; font-size: 30px"><a href="extra_info.html">Extra-Info</a></li>
+</ol>
+
+<script>
+    // JavaScript to handle navigation button clicks
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+    
+
+
+
+
+
+
+
+
+<h1 id="1title" style="font-size:80px; font-family:verdana; color:tomato; text-align:center; letter-spacing: 3px;">Very tomatoistic-eggistic website!</h1>
+
+
+<a style="font-size:50px;" href="https://en.wikipedia.org/wiki/Tomato" title="what are you waiting for? click!" target="_blank"><p style="text-align:center">Click here for a tomato definiton!</p></a>
+
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+      <img src="egg.png" alt="Egg" width="450" height="600">
+    </div>
+    <div class="column">
+        <img src="egg.png" alt="Wild egg" usemap="#workmap" width="450" height="600" class="center">
+    </div>
+    <div class="column">
+      <img src="egg.png" alt="Egg" width="450" height="600">
+    </div>
+   </div>
+
+<map name="workmap">
+  <area shape="poly" coords="225,50, 400,200, 400,400, 50,400, 50,200" alt="Egg" href="eggy.html" onclick="myFunction()">
+</map>
+
+<script>
+    function myFunction() {
+        alert("You are messing with the wrong egg, kid.");
+    }
+</script>
+
+<br><br><br><br>
+
+    <h2 class="one">Check out the egg tab, another tab at Country tab!</h2>
+    
+<!-- What is this type of a comment? -->
+
+<table>
+    <tr>
+      <th style="color: crimson; text-align: center;">Egg's name</th>
+      <th style="color: crimson; text-align: center;">Egg's partner</th>
+      <th style="color: crimson; text-align: center;">Egg's Country</th>
+    </tr>
+    <tr>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggos Peggos</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Neggos Reggos</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggie</th>
+    </tr>
+    <tr>
+      <th style="color: crimson; text-align: center;">Eggwania</th>
+      <th style="color: crimson; text-align: center;">Klegger</th>
+      <th style="color: crimson; text-align: center;">Eggist</th>
+    </tr>
+    <tr>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggrevion</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Seggvent</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggerist</th>
+    </tr>
+    <tr>
+      <th style="color: crimson; text-align: center;">Eggvos</th>
+      <th style="color: crimson; text-align: center;">Negga</th>
+      <th style="color: crimson; text-align: center;">Egwersia</th>
+    </tr>
+    <tr>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggeria</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Egginir</th>
+      <th style="color: rgb(85, 0, 17); text-align: center;">Eggeggegg</th>
+    </tr>
+    <tr>
+      <th style="color: crimson; text-align: center;">Eggwang</th>
+      <th style="color: crimson; text-align: center;">Eggivanja</th>
+      <th style="color: crimson; text-align: center;">Eggwarsos</th>
+    </tr>
+  </table>
+
+<br><br><br>
+
+<div style="background-color: rgb(75, 12, 1); color: tomato; padding: 20px; border: 3px solid black;">
+
+
+<h1 style="color: tomato; text-align: left; font-size: 60px;">To be an egg, you should:</h1>
+
+<ul>
+    <li style="color: tomato; font-size: 20px; font-family: verdana;">Be an egg &#129370,</li>
+    <li style="color: tomato; font-size: 20px; font-family: verdana;">Be egg's partner &#129370,</li>
+    <li style="color: tomato; font-size: 20px; font-family: verdana;">Be as cool as an egg &#129370,</li>
+    <li style="color: tomato; font-size: 20px; font-family: verdana;">No other options yet unfortunately...</li>
+</ul>
+
+
+<h3 style="color: tomato; font-size: 35px; font-family: verdana;">For real, so many <span style="border: 3px solid tomato; font-weight: lighter;">requirements</span> for an egg....</h3>
+
+
+</div>
+
+<p style="text-align:center; font-size: 30px;"><a href="#1title">Jump to the title</a></p>
+
+<p style="text-align:center; font-size: 30px; padding: 2px; color: tomato;">Website owned by Davids Lipsnis-Reits</p>
+
+
+
+</body>
+</html>
